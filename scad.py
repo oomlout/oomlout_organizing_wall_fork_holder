@@ -124,6 +124,12 @@ def make_scad(**kwargs):
         flanges = []
         flanges.append(0)
         flanges.append(6)
+        
+        thicknesses = []
+        thicknesses.append(60)
+        thicknesses.append(80)
+        thicknesses.append(100)
+        thicknesses.append(120)
 
         for gap in gaps:
             for flange in flanges:
