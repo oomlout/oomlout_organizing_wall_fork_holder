@@ -3623,6 +3623,45 @@ thing:
     - 0
     type: rotation
     typetype: p
+  - - extra: 30_mm_gap_6_mm_flange
+      height: 1.5
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 4
+    - extra: 30_mm_gap_6_mm_flange
+      height: 1.5
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 4
+    - extra: 30_mm_gap_6_mm_flange
+      height: 1.5
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 4
   components_objects:
   - depth: 9
     extra: 30_mm_gap_6_mm_flange
@@ -3937,6 +3976,34 @@ thing:
     type: positive
     width: 4
     zz: top
+  - extra: 30_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 30
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 9
+    save_type: none
+    shape: oobb_slice
+    thickness: 60
+    type: n
+    width: 4
   components_string:
   - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra
   - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_0_0_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra_perimeter_holes
@@ -3948,6 +4015,7 @@ thing:
   - oobb_cylinder_shape_positive_type_65_depth_-22.0_0_32.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra_7.0_radius
   - oobb_cylinder_shape_positive_type_6_depth_22.0_0_65_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
   - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_65_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_slice_shape_n_type_0_0_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_30_mm_gap_6_mm_flange_extra
   description: oomlout organizing wall fork holder base 4x1.5x60
   description_extra: 30_mm_gap_6_mm_flange_extra
   description_main: 4_width_1.5_height_60_mm_depth
