@@ -116,6 +116,9 @@ def make_scad(**kwargs):
 
 
         gaps = []
+        gaps.append(8)
+        gaps.append(10)
+        gaps.append(12)
         gaps.append(16)
         gaps.append(20)
         gaps.append(30)

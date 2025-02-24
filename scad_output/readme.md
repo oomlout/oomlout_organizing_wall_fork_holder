@@ -3,6 +3,26 @@
 
 ## parts
 
+### base_3_width_1.5_height_60_mm_depth_10_mm_gap_0_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_10_mm_gap_0_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_10_mm_gap_0_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_10_mm_gap_0_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_10_mm_gap_0_mm_flange_extra/image_300.jpg)
+ 
+
+### base_3_width_1.5_height_60_mm_depth_10_mm_gap_6_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_10_mm_gap_6_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_10_mm_gap_6_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_10_mm_gap_6_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_10_mm_gap_6_mm_flange_extra/image_300.jpg)
+ 
+
+### base_3_width_1.5_height_60_mm_depth_12_mm_gap_0_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_12_mm_gap_0_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_12_mm_gap_0_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_12_mm_gap_0_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_12_mm_gap_0_mm_flange_extra/image_300.jpg)
+ 
+
+### base_3_width_1.5_height_60_mm_depth_12_mm_gap_6_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_12_mm_gap_6_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_12_mm_gap_6_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_12_mm_gap_6_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_12_mm_gap_6_mm_flange_extra/image_300.jpg)
+ 
+
 ### base_3_width_1.5_height_60_mm_depth_16_mm_gap_0_mm_flange_extra
 * link: [/base_3_width_1.5_height_60_mm_depth_16_mm_gap_0_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_16_mm_gap_0_mm_flange_extra)  
 ![](base_3_width_1.5_height_60_mm_depth_16_mm_gap_0_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_16_mm_gap_0_mm_flange_extra/image_300.jpg)
@@ -11,6 +31,16 @@
 ### base_3_width_1.5_height_60_mm_depth_16_mm_gap_6_mm_flange_extra
 * link: [/base_3_width_1.5_height_60_mm_depth_16_mm_gap_6_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_16_mm_gap_6_mm_flange_extra)  
 ![](base_3_width_1.5_height_60_mm_depth_16_mm_gap_6_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_16_mm_gap_6_mm_flange_extra/image_300.jpg)
+ 
+
+### base_3_width_1.5_height_60_mm_depth_8_mm_gap_0_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_8_mm_gap_0_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_8_mm_gap_0_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_8_mm_gap_0_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_8_mm_gap_0_mm_flange_extra/image_300.jpg)
+ 
+
+### base_3_width_1.5_height_60_mm_depth_8_mm_gap_6_mm_flange_extra
+* link: [/base_3_width_1.5_height_60_mm_depth_8_mm_gap_6_mm_flange_extra](base_3_width_1.5_height_60_mm_depth_8_mm_gap_6_mm_flange_extra)  
+![](base_3_width_1.5_height_60_mm_depth_8_mm_gap_6_mm_flange_extra/3dpr_300.png)  ![](base_3_width_1.5_height_60_mm_depth_8_mm_gap_6_mm_flange_extra/image_300.jpg)
  
 
 ### base_4_width_1.5_height_60_mm_depth_20_mm_gap_0_mm_flange_extra
