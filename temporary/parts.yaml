@@ -563,6 +563,96 @@ hardware_screw_countersunk_m3_black_6_mm_length_hex_head:
   webpage_manufacturer_metalmate: https://www.harclob2b.com/m3-x-6-socket-csk-screw-gr10-9-self-colour-din-799-1151m390006
   weight: '0.358'
   weight_10: '3.58'
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_100_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_3_width_1.5_height_100_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_100_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_3_width_1d5_height_100_mm_depth_16_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 16_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 16
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_3_width_1.5_height_100_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 100
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 3
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_120_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_3_width_1.5_height_120_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_120_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_3_width_1d5_height_120_mm_depth_16_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 16_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 16
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_3_width_1.5_height_120_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 120
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 3
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
 project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_60_mm_depth:
   classification: project
   color: oomlout_organizing_wall_fork_holder
@@ -602,6 +692,141 @@ project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_heig
     typ: all
     type: oomlout_organizing_wall_fork_holder_base
     width: 3
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_80_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_3_width_1.5_height_80_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_3_width_1.5_height_80_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_3_width_1d5_height_80_mm_depth_16_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 16_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 16
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_3_width_1.5_height_80_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 80
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 3
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_100_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_4_width_1.5_height_100_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_100_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_30_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 30_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 30
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_4_width_1.5_height_100_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 100
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 4
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_120_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_4_width_1.5_height_120_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_120_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_120_mm_depth_30_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 30_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 30
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_4_width_1.5_height_120_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 120
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 4
   manufacturer: ''
   name: base
   part_number: ''
@@ -653,6 +878,141 @@ project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_heig
   project_name: C:\gh\oomlout_organizing_wall_fork_holder
   size: oomlout
   type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_80_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_4_width_1.5_height_80_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_80_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_80_mm_depth_30_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 30_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 30
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_4_width_1.5_height_80_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 80
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 4
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_100_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_5_width_1.5_height_100_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_100_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_5_width_1d5_height_100_mm_depth_45_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 45_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 45
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_5_width_1.5_height_100_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 100
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 5
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_120_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_5_width_1.5_height_120_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_120_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_5_width_1d5_height_120_mm_depth_45_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 45_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 45
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_5_width_1.5_height_120_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 120
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 5
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
 project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_60_mm_depth:
   classification: project
   color: oomlout_organizing_wall_fork_holder
@@ -689,6 +1049,51 @@ project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_heig
     oomp_type: github
     overwrite: true
     thickness: 60
+    typ: all
+    type: oomlout_organizing_wall_fork_holder_base
+    width: 5
+  manufacturer: ''
+  name: base
+  part_number: ''
+  project_name: C:\gh\oomlout_organizing_wall_fork_holder
+  size: oomlout
+  type: github
+project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_80_mm_depth:
+  classification: project
+  color: oomlout_organizing_wall_fork_holder
+  description_extra: ''
+  description_main: base_5_width_1.5_height_80_mm_depth
+  full_rotations:
+  - 0
+  - 0
+  - 0
+  full_shift:
+  - 0
+  - 0
+  - 0
+  id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_5_width_1.5_height_80_mm_depth
+  id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_5_width_1d5_height_80_mm_depth_45_mm_gap_6_mm_flange_extra
+  kwargs:
+    extra: 45_mm_gap_6_mm_flange
+    filter: ''
+    flange: 6
+    gap: 45
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: base_5_width_1.5_height_80_mm_depth
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    thickness: 80
     typ: all
     type: oomlout_organizing_wall_fork_holder_base
     width: 5

@@ -136,28 +136,29 @@ def make_scad(**kwargs):
 
         for gap in gaps:
             for flange in flanges:
-                part = copy.deepcopy(part_default)
-                p3 = copy.deepcopy(kwargs)
+                for thickness in thicknesses:
+                    part = copy.deepcopy(part_default)
+                    p3 = copy.deepcopy(kwargs)
 
-                width_calculated = gap + 28
-                wid = width_calculated // 15 + 1
+                    width_calculated = gap + 28
+                    wid = width_calculated // 15 + 1
 
-                p3["width"] = wid
-                p3["height"] = 1.5
-                #gap = 16
-                p3["gap"] = gap
-                #flange = 0
-                p3["flange"] = flange
+                    p3["width"] = wid
+                    p3["height"] = 1.5
+                    #gap = 16
+                    p3["gap"] = gap
+                    #flange = 0
+                    p3["flange"] = flange
 
-                p3["thickness"] = 60
-                
-                p3["extra"] = f"{gap}_mm_gap_{flange}_mm_flange"
-                part["kwargs"] = p3
-                nam = "base"
-                part["name"] = nam
-                if oomp_mode == "oobb":
-                    p3["oomp_size"] = nam
-                parts.append(part)
+                    p3["thickness"] = thickness
+                    
+                    p3["extra"] = f"{gap}_mm_gap_{flange}_mm_flange"
+                    part["kwargs"] = p3
+                    nam = "base"
+                    part["name"] = nam
+                    if oomp_mode == "oobb":
+                        p3["oomp_size"] = nam
+                    parts.append(part)
 
 
     kwargs["parts"] = parts
