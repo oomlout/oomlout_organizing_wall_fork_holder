@@ -33,7 +33,6 @@ kwargs:
   oomp_type: github
   overwrite: true
   thickness: 100
-  typ: all
   type: oomlout_organizing_wall_fork_holder_base
   width: 3
 manufacturer: ''

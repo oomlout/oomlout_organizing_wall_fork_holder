@@ -33,7 +33,6 @@ kwargs:
   oomp_type: github
   overwrite: true
   thickness: 60
-  typ: all
   type: oomlout_organizing_wall_fork_holder_base
   width: 5
 manufacturer: ''
@@ -3688,10 +3687,9 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_plate
     thickness: 60
-    typ: all
     type: positive
     width: 5
   - depth: 60
@@ -3721,10 +3719,9 @@ thing:
     - 0
     - 9
     radius_name: m3_screw_wood
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 60
-    typ: all
     type: negative
     width: 5
   - extra: 45_mm_gap_6_mm_flange
@@ -3754,10 +3751,9 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     thickness: 60
-    typ: all
     type: negative
     width: 5
   - extra: 45_mm_gap_6_mm_flange
@@ -3787,10 +3783,9 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     thickness: 60
-    typ: all
     type: negative
     width: 5
   - extra: 45_mm_gap_6_mm_flange
@@ -3820,10 +3815,9 @@ thing:
     - 0
     - 65
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     thickness: 60
-    typ: all
     type: negative
     width: 5
     zz: top
@@ -3854,10 +3848,9 @@ thing:
     - 0
     - 65
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     thickness: 60
-    typ: all
     type: negative
     width: 5
     zz: top
@@ -3886,10 +3879,9 @@ thing:
     - 0
     - 32.5
     radius: 7.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 60
-    typ: all
     type: positive
     width: 5
   - depth: 65
@@ -3917,10 +3909,9 @@ thing:
     - 0
     - 32.5
     radius: 7.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 60
-    typ: all
     type: positive
     width: 5
   - depth: 6
@@ -3948,10 +3939,9 @@ thing:
     - 0
     - 65
     radius: 12.5
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 60
-    typ: all
     type: positive
     width: 5
     zz: top
@@ -3980,10 +3970,9 @@ thing:
     - 0
     - 65
     radius: 12.5
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 60
-    typ: all
     type: positive
     width: 5
     zz: top
@@ -4010,24 +3999,23 @@ thing:
     - 0
     - 0
     - 9
-    save_type: all
+    save_type: none
     shape: oobb_slice
     thickness: 60
-    typ: all
     type: n
     width: 5
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_perimeter_holes
-  - oobb_nut_shape_negative_type_m6_radius_name_29.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_-29.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_29.5_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_nut_shape_negative_type_m6_radius_name_-29.5_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_cylinder_shape_positive_type_65_depth_29.5_0_32.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_65_depth_-29.5_0_32.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_6_depth_29.5_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
-  - oobb_cylinder_shape_positive_type_6_depth_-29.5_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
-  - oobb_slice_shape_n_type_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_0_0_9_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_perimeter_holes
+  - oobb_nut_shape_negative_type_m6_radius_name_29.5_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_-29.5_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_29.5_0_65_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_nut_shape_negative_type_m6_radius_name_-29.5_0_65_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_cylinder_shape_positive_type_65_depth_29.5_0_32.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_7.0_radius
+  - oobb_cylinder_shape_positive_type_65_depth_-29.5_0_32.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_7.0_radius
+  - oobb_cylinder_shape_positive_type_6_depth_29.5_0_65_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_-29.5_0_65_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_slice_shape_n_type_0_0_9_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_45_gap_6_flange_45_mm_gap_6_mm_flange_extra
   description: oomlout organizing wall fork holder base 5x1.5x60
   description_extra: 45_mm_gap_6_mm_flange_extra
   description_main: 5_width_1.5_height_60_mm_depth

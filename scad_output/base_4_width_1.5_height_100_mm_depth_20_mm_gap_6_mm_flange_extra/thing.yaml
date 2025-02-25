@@ -1,6 +1,6 @@
 classification: project
 color: oomlout_organizing_wall_fork_holder
-description_extra: ''
+description_extra: 20_mm_gap_6_mm_flange_extra
 description_main: base_4_width_1.5_height_100_mm_depth
 full_rotations:
 - 0
@@ -10,30 +10,30 @@ full_shift:
 - 0
 - 0
 - 0
-id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_100_mm_depth
-id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_0_mm_flange_extra
+id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_height_100_mm_depth_20_mm_gap_6_mm_flange_extra
+id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_6_mm_flange_extra
 kwargs:
-  extra: 20_mm_gap_0_mm_flange
+  extra: 20_mm_gap_6_mm_flange
   filter: ''
-  flange: 0
+  flange: 6
   gap: 20
   height: 1.5
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
-  oomp_description_extra: ''
+  oomp_description_extra: 20_mm_gap_6_mm_flange_extra
   oomp_description_main: base_4_width_1.5_height_100_mm_depth
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
+  style: ''
   thickness: 100
-  typ: all
   type: oomlout_organizing_wall_fork_holder_base
   width: 4
 manufacturer: ''
@@ -46,7 +46,7 @@ thing:
   color: ''
   components:
   - - depth: 9
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       height: 1.5
       pos:
       - 0
@@ -61,7 +61,7 @@ thing:
       width: 4
   - - objects:
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 2.5
           height: 1.5
           inclusion: laser
@@ -76,7 +76,7 @@ thing:
           type: positive
           width: 4
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: laser
@@ -91,7 +91,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 3dpr
@@ -102,7 +102,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 'true'
@@ -114,7 +114,7 @@ thing:
           type: positive
           width: 4
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 3
           height: 1.5
           inclusion: 3dpr
@@ -129,7 +129,7 @@ thing:
           type: positive
           width: 4
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: laser
@@ -144,7 +144,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 3dpr
@@ -155,7 +155,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 'true'
@@ -167,7 +167,7 @@ thing:
           type: positive
           width: 4
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 2.5
           height: 1.5
           inclusion: 'true'
@@ -182,7 +182,7 @@ thing:
           type: positive
           width: 4
       - - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: laser
@@ -197,7 +197,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 3dpr
@@ -208,7 +208,7 @@ thing:
           type: positive
           width: 4
         - depth: 100
-          extra: 20_mm_gap_0_mm_flange
+          extra: 20_mm_gap_6_mm_flange
           h: 100
           height: 1.5
           inclusion: 'true'
@@ -230,7 +230,7 @@ thing:
       type: rotation
       typetype: negative
   - - objects:
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: laser
         m: '#'
@@ -243,7 +243,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -261,7 +261,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -279,7 +279,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -297,7 +297,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -315,7 +315,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -328,7 +328,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -338,7 +338,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -348,7 +348,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 3dpr
         m: '#'
@@ -361,7 +361,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -379,7 +379,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -397,7 +397,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -415,7 +415,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -433,7 +433,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -446,7 +446,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -456,7 +456,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -466,7 +466,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 'true'
         m: '#'
@@ -479,7 +479,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -497,7 +497,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -515,7 +515,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -533,7 +533,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -551,7 +551,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -564,7 +564,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -574,7 +574,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -595,7 +595,7 @@ thing:
       type: rotation
       typetype: negative
   - - objects:
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: laser
         m: '#'
@@ -608,7 +608,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -626,7 +626,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -644,7 +644,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -662,7 +662,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -680,7 +680,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -693,7 +693,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -703,7 +703,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -713,7 +713,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 3dpr
         m: '#'
@@ -726,7 +726,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -744,7 +744,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -762,7 +762,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -780,7 +780,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -798,7 +798,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -811,7 +811,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -821,7 +821,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -831,7 +831,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 'true'
         m: '#'
@@ -844,7 +844,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -862,7 +862,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -880,7 +880,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -898,7 +898,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -916,7 +916,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -929,7 +929,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -939,7 +939,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -960,7 +960,7 @@ thing:
       type: rotation
       typetype: negative
   - - objects:
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: laser
         m: '#'
@@ -973,7 +973,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -991,7 +991,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1009,7 +1009,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1027,7 +1027,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1045,7 +1045,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1058,7 +1058,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1068,7 +1068,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1078,7 +1078,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 3dpr
         m: '#'
@@ -1091,7 +1091,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1109,7 +1109,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1127,7 +1127,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1145,7 +1145,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1163,7 +1163,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1176,7 +1176,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1186,7 +1186,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1196,7 +1196,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 'true'
         m: '#'
@@ -1209,7 +1209,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1227,7 +1227,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1245,7 +1245,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1263,7 +1263,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1281,7 +1281,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1294,7 +1294,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1304,7 +1304,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1325,7 +1325,7 @@ thing:
       type: rotation
       typetype: negative
   - - objects:
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: laser
         m: '#'
@@ -1338,7 +1338,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1356,7 +1356,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1374,7 +1374,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1392,7 +1392,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1410,7 +1410,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1423,7 +1423,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1433,7 +1433,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1443,7 +1443,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 3dpr
         m: '#'
@@ -1456,7 +1456,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1474,7 +1474,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1492,7 +1492,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1510,7 +1510,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1528,7 +1528,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1541,7 +1541,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1551,7 +1551,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1561,7 +1561,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-      - extra: 20_mm_gap_0_mm_flange
+      - extra: 20_mm_gap_6_mm_flange
         height: 5
         inclusion: 'true'
         m: '#'
@@ -1574,7 +1574,7 @@ thing:
         sides: 6
         type: positive
         width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1592,7 +1592,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1610,7 +1610,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - - - - - extra: 20_mm_gap_0_mm_flange
+      - - - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1628,7 +1628,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-          - - - - extra: 20_mm_gap_0_mm_flange
+          - - - - extra: 20_mm_gap_6_mm_flange
                   height: 1.5
                   inclusion: 3dpr
                   m: '#'
@@ -1646,7 +1646,7 @@ thing:
                   - 0.3
                   type: positive
                   width: 4
-      - - extra: 20_mm_gap_0_mm_flange
+      - - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: laser
@@ -1659,7 +1659,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 3dpr
@@ -1669,7 +1669,7 @@ thing:
           shape: cylinder
           type: positive
           width: 4
-        - extra: 20_mm_gap_0_mm_flange
+        - extra: 20_mm_gap_6_mm_flange
           h: 200
           height: 1.5
           inclusion: 'true'
@@ -1690,7 +1690,7 @@ thing:
       type: rotation
       typetype: negative
   - - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: laser
@@ -1704,7 +1704,7 @@ thing:
       type: positive
       width: 4
     - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: 3dpr
@@ -1714,7 +1714,7 @@ thing:
       type: positive
       width: 4
     - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: 'true'
@@ -1725,7 +1725,7 @@ thing:
       type: positive
       width: 4
   - - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: laser
@@ -1739,7 +1739,7 @@ thing:
       type: positive
       width: 4
     - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: 3dpr
@@ -1749,7 +1749,7 @@ thing:
       type: positive
       width: 4
     - depth: 105
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 105
       height: 1.5
       inclusion: 'true'
@@ -1760,1919 +1760,85 @@ thing:
       type: positive
       width: 4
   - - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: laser
       pos: &id018
       - 17.0
       - 0
-      - 99.0
-      r: 7.0
-      radius: 7.0
+      - 91.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
     - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: 3dpr
       pos: *id018
-      r: 7.0
+      r: 12.5
       shape: cylinder
       type: positive
       width: 4
     - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: 'true'
       pos: *id018
-      r: 7.0
-      radius: 7.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
   - - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: laser
       pos: &id019
       - -17.0
       - 0
-      - 99.0
-      r: 7.0
-      radius: 7.0
+      - 94.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
     - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: 3dpr
       pos: *id019
-      r: 7.0
+      r: 12.5
       shape: cylinder
       type: positive
       width: 4
     - depth: 6
-      extra: 20_mm_gap_0_mm_flange
+      extra: 20_mm_gap_6_mm_flange
       h: 6
       height: 1.5
       inclusion: 'true'
       pos: *id019
-      r: 7.0
-      radius: 7.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
-  - objects:
-    - - depth: 9
-        extra: 20_mm_gap_0_mm_flange
-        height: 1.5
-        pos:
-        - 0
-        - 0
-        - 0
-        shape: rounded_rectangle
-        size:
-        - 59
-        - 21.5
-        - 9
-        type: positive
-        width: 4
-    - - objects:
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 2.5
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos:
-            - 0
-            - 0
-            - -2.5
-            r1: 2.0
-            r2: 3.5
-            shape: cylinder
-            type: positive
-            width: 4
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id020
-            - 0
-            - 0
-            - -100.0
-            r: 2.0
-            radius: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id020
-            r: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id020
-            r: 2.0
-            radius: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 3
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos:
-            - 0
-            - 0
-            - -3
-            r1: 2.125
-            r2: 3.75
-            shape: cylinder
-            type: positive
-            width: 4
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id021
-            - 0
-            - 0
-            - -100.0
-            r: 2.125
-            radius: 2.125
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id021
-            r: 2.125
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id021
-            r: 2.125
-            radius: 2.125
-            shape: cylinder
-            type: positive
-            width: 4
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 2.5
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos:
-            - 0
-            - 0
-            - -2.5
-            r1: 2.0
-            r2: 3.5
-            shape: cylinder
-            type: positive
-            width: 4
-        - - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id022
-            - 0
-            - 0
-            - -100.0
-            r: 2.0
-            radius: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id022
-            r: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - depth: 100
-            extra: 20_mm_gap_0_mm_flange
-            h: 100
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id022
-            r: 2.0
-            radius: 2.0
-            shape: cylinder
-            type: positive
-            width: 4
-        pos:
-        - 0
-        - 0
-        - 9
-        rot:
-        - 0
-        - 0
-        - 0
-        type: rotation
-        typetype: negative
-    - - objects:
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: laser
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id023
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id023
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id023
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 3dpr
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.914249999999999
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id024
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id024
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id024
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 'true'
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id025
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id025
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id025
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        pos:
-        - 17.0
-        - 0
-        - 0
-        rot:
-        - 0
-        - 0
-        - 0
-        type: rotation
-        typetype: negative
-    - - objects:
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: laser
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id026
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id026
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id026
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 3dpr
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.914249999999999
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id027
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id027
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id027
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 'true'
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - 0
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -0.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 5
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id028
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id028
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id028
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        pos:
-        - -17.0
-        - 0
-        - 0
-        rot:
-        - 0
-        - 0
-        - 0
-        type: rotation
-        typetype: negative
-    - - objects:
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: laser
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id029
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id029
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id029
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 3dpr
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.914249999999999
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id030
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id030
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id030
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 'true'
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id031
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id031
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id031
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        pos:
-        - 17.0
-        - 0
-        - 105
-        rot:
-        - 0
-        - 0
-        - 0
-        type: rotation
-        typetype: negative
-    - - objects:
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: laser
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id032
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id032
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id032
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 3dpr
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.914249999999999
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id033
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id033
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id033
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        - extra: 20_mm_gap_0_mm_flange
-          height: 5
-          inclusion: 'true'
-          m: '#'
-          pos:
-          - 0
-          - 0
-          - -5
-          r: 5.77
-          shape: polyg
-          sides: 6
-          type: positive
-          width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - -5.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - -5.6
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -5.0
-                    - 0
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 10
-                    - 0.3
-                    type: positive
-                    width: 4
-            - - - - extra: 20_mm_gap_0_mm_flange
-                    height: 1.5
-                    inclusion: 3dpr
-                    m: '#'
-                    pos:
-                    - -2.875
-                    - -2.875
-                    - 0.3
-                    rotX: 0
-                    rotY: 0
-                    rotZ: 0
-                    shape: cube
-                    size:
-                    - 5.75
-                    - 5.75
-                    - 0.3
-                    type: positive
-                    width: 4
-        - - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: laser
-            m: '#'
-            pos: &id034
-            - 0
-            - 0
-            - -100.0
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 3dpr
-            m: '#'
-            pos: *id034
-            r: 3.25
-            shape: cylinder
-            type: positive
-            width: 4
-          - extra: 20_mm_gap_0_mm_flange
-            h: 200
-            height: 1.5
-            inclusion: 'true'
-            m: '#'
-            pos: *id034
-            r: 3.0
-            shape: cylinder
-            type: positive
-            width: 4
-        pos:
-        - -17.0
-        - 0
-        - 105
-        rot:
-        - 0
-        - 0
-        - 0
-        type: rotation
-        typetype: negative
-    - - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: laser
-        pos: &id035
-        - 17.0
-        - 0
-        - 0.0
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: 3dpr
-        pos: *id035
-        r: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: 'true'
-        pos: *id035
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-    - - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: laser
-        pos: &id036
-        - -17.0
-        - 0
-        - 0.0
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: 3dpr
-        pos: *id036
-        r: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 105
-        extra: 20_mm_gap_0_mm_flange
-        h: 105
-        height: 1.5
-        inclusion: 'true'
-        pos: *id036
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-    - - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: laser
-        pos: &id037
-        - 17.0
-        - 0
-        - 99.0
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: 3dpr
-        pos: *id037
-        r: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: 'true'
-        pos: *id037
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-    - - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: laser
-        pos: &id038
-        - -17.0
-        - 0
-        - 99.0
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: 3dpr
-        pos: *id038
-        r: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-      - depth: 6
-        extra: 20_mm_gap_0_mm_flange
-        h: 6
-        height: 1.5
-        inclusion: 'true'
-        pos: *id038
-        r: 7.0
-        radius: 7.0
-        shape: cylinder
-        type: positive
-        width: 4
-    pos:
-    - 150
-    - 0
-    - 18
-    rot:
-    - 180
-    - 0
-    - 0
-    type: rotation
-    typetype: p
-  - - extra: 20_mm_gap_0_mm_flange
-      height: 1.5
-      pos:
-      - -250.0
-      - -250.0
-      - 9
-      shape: cube
-      size:
-      - 500
-      - 500
-      - 500
-      type: negative
-      width: 4
-    - extra: 20_mm_gap_0_mm_flange
-      height: 1.5
-      pos:
-      - -250.0
-      - -250.0
-      - 9
-      shape: cube
-      size:
-      - 500
-      - 500
-      - 500
-      type: negative
-      width: 4
-    - extra: 20_mm_gap_0_mm_flange
-      height: 1.5
-      pos:
-      - -250.0
-      - -250.0
-      - 9
-      shape: cube
-      size:
-      - 500
-      - 500
-      - 500
-      type: negative
-      width: 4
   components_objects:
   - depth: 9
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3680,7 +1846,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -3688,23 +1854,23 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_plate
+    style: ''
     thickness: 100
-    typ: all
     type: positive
     width: 4
   - depth: 100
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     holes: perimeter
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3712,7 +1878,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -3721,22 +1887,22 @@ thing:
     - 0
     - 9
     radius_name: m3_screw_wood
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
+    style: ''
     thickness: 100
-    typ: all
     type: negative
     width: 4
-  - extra: 20_mm_gap_0_mm_flange
+  - extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     hole: true
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3744,7 +1910,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -3754,22 +1920,22 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
+    style: ''
     thickness: 100
-    typ: all
     type: negative
     width: 4
-  - extra: 20_mm_gap_0_mm_flange
+  - extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     hole: true
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3777,7 +1943,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -3787,22 +1953,22 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
+    style: ''
     thickness: 100
-    typ: all
     type: negative
     width: 4
-  - extra: 20_mm_gap_0_mm_flange
+  - extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     hole: true
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3810,7 +1976,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -3820,23 +1986,23 @@ thing:
     - 0
     - 105
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
+    style: ''
     thickness: 100
-    typ: all
     type: negative
     width: 4
     zz: top
-  - extra: 20_mm_gap_0_mm_flange
+  - extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     hole: true
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3844,7 +2010,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -3854,22 +2020,22 @@ thing:
     - 0
     - 105
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
+    style: ''
     thickness: 100
-    typ: all
     type: negative
     width: 4
     zz: top
   - depth: 105
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3877,7 +2043,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -3886,21 +2052,21 @@ thing:
     - 0
     - 52.5
     radius: 7.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
+    style: ''
     thickness: 100
-    typ: all
     type: positive
     width: 4
   - depth: 105
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3908,7 +2074,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -3917,21 +2083,21 @@ thing:
     - 0
     - 52.5
     radius: 7.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
+    style: ''
     thickness: 100
-    typ: all
     type: positive
     width: 4
   - depth: 6
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3939,31 +2105,31 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
     - 17.0
     - 0
-    - 105
-    radius: 7.0
-    save_type: all
+    - 97.0
+    radius: 12.5
+    save_type: none
     shape: oobb_cylinder
+    style: ''
     thickness: 100
-    typ: all
     type: positive
     width: 4
     zz: top
   - depth: 6
-    extra: 20_mm_gap_0_mm_flange
+    extra: 20_mm_gap_6_mm_flange
     filter: ''
-    flange: 0
+    flange: 6
     gap: 20
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -3971,76 +2137,46 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
     - -17.0
     - 0
-    - 105
-    radius: 7.0
-    save_type: all
+    - 100
+    radius: 12.5
+    save_type: none
     shape: oobb_cylinder
+    style: ''
     thickness: 100
-    typ: all
     type: positive
     width: 4
     zz: top
-  - extra: 20_mm_gap_0_mm_flange
-    filter: ''
-    flange: 0
-    gap: 20
-    height: 1.5
-    modes:
-    - 3dpr
-    navigation: true
-    oomp_classification: project
-    oomp_color: oomlout_organizing_wall_fork_holder
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: project
-    oomp_part_number: ''
-    oomp_run: true
-    oomp_size: oomlout
-    oomp_type: github
-    overwrite: true
-    pos:
-    - 0
-    - 0
-    - 9
-    save_type: all
-    shape: oobb_slice
-    thickness: 100
-    typ: all
-    type: n
-    width: 4
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_100_depth_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_perimeter_holes
-  - oobb_nut_shape_negative_type_m6_radius_name_17.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_-17.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_17.0_0_105_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_nut_shape_negative_type_m6_radius_name_-17.0_0_105_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_cylinder_shape_positive_type_105_depth_17.0_0_52.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_105_depth_-17.0_0_52.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_6_depth_17.0_0_105_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_7.0_radius_top_zz
-  - oobb_cylinder_shape_positive_type_6_depth_-17.0_0_105_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra_7.0_radius_top_zz
-  - oobb_slice_shape_n_type_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_0_flange_20_mm_gap_0_mm_flange_extra
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_100_depth_0_0_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_perimeter_holes
+  - oobb_nut_shape_negative_type_m6_radius_name_17.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_-17.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_17.0_0_105_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_nut_shape_negative_type_m6_radius_name_-17.0_0_105_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_cylinder_shape_positive_type_105_depth_17.0_0_52.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_7.0_radius
+  - oobb_cylinder_shape_positive_type_105_depth_-17.0_0_52.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_7.0_radius
+  - oobb_cylinder_shape_positive_type_6_depth_17.0_0_97.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_-17.0_0_100_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_20_gap_6_flange_20_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
   description: oomlout organizing wall fork holder base 4x1.5x100
-  description_extra: 20_mm_gap_0_mm_flange_extra
+  description_extra: 20_mm_gap_6_mm_flange_extra
   description_main: 4_width_1.5_height_100_mm_depth
-  extra: 20_mm_gap_0_mm_flange
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_0_mm_flange_extra
+  extra: 20_mm_gap_6_mm_flange
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_6_mm_flange_extra
   height: 1.5
   height_mm: 21.5
-  id: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_0_mm_flange_extra
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_organizing_wall_fork_holder_base/4_width_1.5_height_100_mm_depth/20_mm_gap_0_mm_flange_extra/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_organizing_wall_fork_holder_base_04_1d5_100_ex_20_mm_gap_0_mm_flange
+  id: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_100_mm_depth_20_mm_gap_6_mm_flange_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_organizing_wall_fork_holder_base/4_width_1.5_height_100_mm_depth/20_mm_gap_6_mm_flange_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_organizing_wall_fork_holder_base_04_1d5_100_ex_20_mm_gap_6_mm_flange
   manufacturer: ''
   name: Oobb Part Oomlout Organizing Wall Fork Holder Base 4 Width 1D5 Height 100
-    mm Depth 20 mm Gap 0 mm Flange Extra
+    mm Depth 20 mm Gap 6 mm Flange Extra
   name_short: Oomlout Organizing Wall Fork Holder
   part_number: ''
   short_name: ''
