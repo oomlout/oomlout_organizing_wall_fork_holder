@@ -14,7 +14,7 @@ id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_
 id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_60_mm_depth_30_mm_gap_6_mm_flange_extra
 kwargs:
   extra: 30_mm_gap_6_mm_flange
-  filter: 30_mm_gap
+  filter: ''
   flange: 6
   gap: 30
   height: 1.5
@@ -34,6 +34,7 @@ kwargs:
   overwrite: true
   style: ''
   thickness: 60
+  typ: all
   type: oomlout_organizing_wall_fork_holder_base
   width: 4
 manufacturer: ''

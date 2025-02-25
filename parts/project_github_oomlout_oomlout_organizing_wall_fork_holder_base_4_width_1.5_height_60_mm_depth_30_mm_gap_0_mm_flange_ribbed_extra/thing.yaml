@@ -14,7 +14,7 @@ id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_
 id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_60_mm_depth_30_mm_gap_0_mm_flange_ribbed_extra
 kwargs:
   extra: 30_mm_gap_0_mm_flange_ribbed
-  filter: 30_mm_gap
+  filter: ''
   flange: 0
   gap: 30
   height: 1.5
@@ -34,6 +34,7 @@ kwargs:
   overwrite: true
   style: ribbed
   thickness: 60
+  typ: all
   type: oomlout_organizing_wall_fork_holder_base
   width: 4
 manufacturer: ''
@@ -3886,7 +3887,7 @@ thing:
   components_objects:
   - depth: 9
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -3912,11 +3913,12 @@ thing:
     shape: oobb_plate
     style: ribbed
     thickness: 60
+    typ: all
     type: positive
     width: 4
   - depth: 60
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -3945,10 +3947,11 @@ thing:
     shape: oobb_screw_countersunk
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -3978,10 +3981,11 @@ thing:
     shape: oobb_nut
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4011,10 +4015,11 @@ thing:
     shape: oobb_nut
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4044,11 +4049,12 @@ thing:
     shape: oobb_nut
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
     zz: top
   - extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4078,12 +4084,13 @@ thing:
     shape: oobb_nut
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
     zz: top
   - depth: 65
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4110,11 +4117,12 @@ thing:
     shape: oobb_cylinder
     style: ribbed
     thickness: 60
+    typ: all
     type: positive
     width: 4
   - depth: 65
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4141,11 +4149,12 @@ thing:
     shape: oobb_cylinder
     style: ribbed
     thickness: 60
+    typ: all
     type: positive
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4172,11 +4181,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4203,11 +4213,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4234,11 +4245,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4265,11 +4277,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4296,11 +4309,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4327,11 +4341,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4358,11 +4373,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4389,11 +4405,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4420,11 +4437,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 10
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4451,11 +4469,12 @@ thing:
     shape: oring
     style: ribbed
     thickness: 60
+    typ: all
     type: negative
     width: 4
   - depth: 6
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4482,12 +4501,13 @@ thing:
     shape: oobb_cylinder
     style: ribbed
     thickness: 60
+    typ: all
     type: positive
     width: 4
     zz: top
   - depth: 6
     extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4514,11 +4534,12 @@ thing:
     shape: oobb_cylinder
     style: ribbed
     thickness: 60
+    typ: all
     type: positive
     width: 4
     zz: top
   - extra: 30_mm_gap_0_mm_flange_ribbed
-    filter: 30_mm_gap
+    filter: ''
     flange: 0
     gap: 30
     height: 1.5
@@ -4544,30 +4565,31 @@ thing:
     shape: oobb_slice
     style: ribbed
     thickness: 60
+    typ: all
     type: n
     width: 4
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_0_0_9_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_perimeter_holes
-  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_65_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
-  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_65_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
-  - oobb_cylinder_shape_positive_type_65_depth_22.0_0_32.5_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_9.0_radius
-  - oobb_cylinder_shape_positive_type_65_depth_-22.0_0_32.5_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_9.0_radius
-  - oring_shape_negative_type_10_depth_22.0_0_14.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_14.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_24.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_24.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_34.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_34.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_44.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_44.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_54.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_54.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
-  - oobb_cylinder_shape_positive_type_6_depth_22.0_0_65_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_radius_top_zz
-  - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_65_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_radius_top_zz
-  - oobb_slice_shape_n_type_0_0_9_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra
+  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_perimeter_holes
+  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
+  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
+  - oobb_cylinder_shape_positive_type_65_depth_22.0_0_32.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_9.0_radius
+  - oobb_cylinder_shape_positive_type_65_depth_-22.0_0_32.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_9.0_radius
+  - oring_shape_negative_type_10_depth_22.0_0_14.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_14.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_24.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_24.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_34.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_34.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_44.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_44.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_54.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_54.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_id
+  - oobb_cylinder_shape_positive_type_6_depth_22.0_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_65_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra_7.0_radius_top_zz
+  - oobb_slice_shape_n_type_0_0_9_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_0_flange_ribbed_style_30_mm_gap_0_mm_flange_ribbed_extra
   description: oomlout organizing wall fork holder base 4x1.5x60
   description_extra: 30_mm_gap_0_mm_flange_ribbed_extra
   description_main: 4_width_1.5_height_60_mm_depth

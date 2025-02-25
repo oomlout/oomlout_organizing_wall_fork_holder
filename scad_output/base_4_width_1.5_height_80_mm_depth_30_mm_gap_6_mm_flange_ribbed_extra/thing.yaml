@@ -14,13 +14,13 @@ id: project_github_oomlout_oomlout_organizing_wall_fork_holder_base_4_width_1.5_
 id_oobb: oobb_part_oomlout_organizing_wall_fork_holder_base_4_width_1d5_height_80_mm_depth_30_mm_gap_6_mm_flange_ribbed_extra
 kwargs:
   extra: 30_mm_gap_6_mm_flange_ribbed
-  filter: ''
+  filter: 30_mm_gap
   flange: 6
   gap: 30
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 30_mm_gap_6_mm_flange_ribbed_extra
@@ -28,7 +28,7 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
@@ -1921,9 +1921,9 @@ thing:
       pos: &id018
       - 22.0
       - 0
-      - 82.0
-      r: 7.0
-      radius: 7.0
+      - 79.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
@@ -1933,7 +1933,7 @@ thing:
       height: 1.5
       inclusion: 3dpr
       pos: *id018
-      r: 7.0
+      r: 12.5
       shape: cylinder
       type: positive
       width: 4
@@ -1943,8 +1943,8 @@ thing:
       height: 1.5
       inclusion: 'true'
       pos: *id018
-      r: 7.0
-      radius: 7.0
+      r: 12.5
+      radius: 12.5
       shape: cylinder
       type: positive
       width: 4
@@ -1956,41 +1956,6 @@ thing:
       pos: &id019
       - -22.0
       - 0
-      - 82.0
-      r: 7.0
-      radius: 7.0
-      shape: cylinder
-      type: positive
-      width: 4
-    - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
-      height: 1.5
-      inclusion: 3dpr
-      pos: *id019
-      r: 7.0
-      shape: cylinder
-      type: positive
-      width: 4
-    - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
-      height: 1.5
-      inclusion: 'true'
-      pos: *id019
-      r: 7.0
-      radius: 7.0
-      shape: cylinder
-      type: positive
-      width: 4
-  - - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
-      height: 1.5
-      inclusion: laser
-      pos: &id020
-      - 22.0
-      - 0
       - 79.0
       r: 12.5
       radius: 12.5
@@ -2002,7 +1967,7 @@ thing:
       h: 6
       height: 1.5
       inclusion: 3dpr
-      pos: *id020
+      pos: *id019
       r: 12.5
       shape: cylinder
       type: positive
@@ -2012,57 +1977,2010 @@ thing:
       h: 6
       height: 1.5
       inclusion: 'true'
-      pos: *id020
+      pos: *id019
       r: 12.5
       radius: 12.5
       shape: cylinder
       type: positive
       width: 4
-  - - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
+  - objects:
+    - - depth: 9
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        pos:
+        - 0
+        - 0
+        - 0
+        shape: rounded_rectangle
+        size:
+        - 59
+        - 21.5
+        - 9
+        type: positive
+        width: 4
+    - - objects:
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 2.5
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - -2.5
+            r1: 2.0
+            r2: 3.5
+            shape: cylinder
+            type: positive
+            width: 4
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id020
+            - 0
+            - 0
+            - -80.0
+            r: 2.0
+            radius: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id020
+            r: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id020
+            r: 2.0
+            radius: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 3
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - -3
+            r1: 2.125
+            r2: 3.75
+            shape: cylinder
+            type: positive
+            width: 4
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id021
+            - 0
+            - 0
+            - -80.0
+            r: 2.125
+            radius: 2.125
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id021
+            r: 2.125
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id021
+            r: 2.125
+            radius: 2.125
+            shape: cylinder
+            type: positive
+            width: 4
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 2.5
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - -2.5
+            r1: 2.0
+            r2: 3.5
+            shape: cylinder
+            type: positive
+            width: 4
+        - - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id022
+            - 0
+            - 0
+            - -80.0
+            r: 2.0
+            radius: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id022
+            r: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - depth: 80
+            extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 80
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id022
+            r: 2.0
+            radius: 2.0
+            shape: cylinder
+            type: positive
+            width: 4
+        pos:
+        - 0
+        - 0
+        - 9
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - objects:
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id023
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id023
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id023
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.914249999999999
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id024
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id024
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id024
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id025
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id025
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id025
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        pos:
+        - 22.0
+        - 0
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - objects:
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id026
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id026
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id026
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.914249999999999
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id027
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id027
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id027
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - 0
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -0.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 5
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id028
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id028
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id028
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        pos:
+        - -22.0
+        - 0
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - objects:
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id029
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id029
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id029
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.914249999999999
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id030
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id030
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id030
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id031
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id031
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id031
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        pos:
+        - 22.0
+        - 0
+        - 85
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - objects:
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id032
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id032
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id032
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.914249999999999
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id033
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id033
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id033
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        - extra: 30_mm_gap_6_mm_flange_ribbed
+          height: 5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -5
+          r: 5.77
+          shape: polyg
+          sides: 6
+          type: positive
+          width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - -5.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - -5.6
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -5.0
+                    - 0
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 10
+                    - 0.3
+                    type: positive
+                    width: 4
+            - - - - extra: 30_mm_gap_6_mm_flange_ribbed
+                    height: 1.5
+                    inclusion: 3dpr
+                    m: '#'
+                    pos:
+                    - -2.875
+                    - -2.875
+                    - 0.3
+                    rotX: 0
+                    rotY: 0
+                    rotZ: 0
+                    shape: cube
+                    size:
+                    - 5.75
+                    - 5.75
+                    - 0.3
+                    type: positive
+                    width: 4
+        - - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: laser
+            m: '#'
+            pos: &id034
+            - 0
+            - 0
+            - -100.0
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 3dpr
+            m: '#'
+            pos: *id034
+            r: 3.25
+            shape: cylinder
+            type: positive
+            width: 4
+          - extra: 30_mm_gap_6_mm_flange_ribbed
+            h: 200
+            height: 1.5
+            inclusion: 'true'
+            m: '#'
+            pos: *id034
+            r: 3.0
+            shape: cylinder
+            type: positive
+            width: 4
+        pos:
+        - -22.0
+        - 0
+        - 85
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: laser
+        pos: &id035
+        - 22.0
+        - 0
+        - 0.0
+        r: 9.0
+        radius: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: 3dpr
+        pos: *id035
+        r: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: 'true'
+        pos: *id035
+        r: 9.0
+        radius: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+    - - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: laser
+        pos: &id036
+        - -22.0
+        - 0
+        - 0.0
+        r: 9.0
+        radius: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: 3dpr
+        pos: *id036
+        r: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 85
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 85
+        height: 1.5
+        inclusion: 'true'
+        pos: *id036
+        r: 9.0
+        radius: 9.0
+        shape: cylinder
+        type: positive
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 14.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 14.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 24.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 24.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 34.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 34.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 44.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 44.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 54.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 54.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 64.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 64.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - 22.0
+        - 0
+        - 74.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 10
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        height: 1.5
+        id: 7.0
+        pos:
+        - -22.0
+        - 0
+        - 74.0
+        shape: oring
+        type: negative
+        width: 4
+    - - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: laser
+        pos: &id037
+        - 22.0
+        - 0
+        - 79.0
+        r: 12.5
+        radius: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: 3dpr
+        pos: *id037
+        r: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: 'true'
+        pos: *id037
+        r: 12.5
+        radius: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+    - - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: laser
+        pos: &id038
+        - -22.0
+        - 0
+        - 79.0
+        r: 12.5
+        radius: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: 3dpr
+        pos: *id038
+        r: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+      - depth: 6
+        extra: 30_mm_gap_6_mm_flange_ribbed
+        h: 6
+        height: 1.5
+        inclusion: 'true'
+        pos: *id038
+        r: 12.5
+        radius: 12.5
+        shape: cylinder
+        type: positive
+        width: 4
+    pos:
+    - 150
+    - 0
+    - 18
+    rot:
+    - 180
+    - 0
+    - 0
+    type: rotation
+    typetype: p
+  - - extra: 30_mm_gap_6_mm_flange_ribbed
       height: 1.5
-      inclusion: laser
-      pos: &id021
-      - -22.0
-      - 0
-      - 79.0
-      r: 12.5
-      radius: 12.5
-      shape: cylinder
-      type: positive
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
       width: 4
-    - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
+    - extra: 30_mm_gap_6_mm_flange_ribbed
       height: 1.5
-      inclusion: 3dpr
-      pos: *id021
-      r: 12.5
-      shape: cylinder
-      type: positive
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
       width: 4
-    - depth: 6
-      extra: 30_mm_gap_6_mm_flange_ribbed
-      h: 6
+    - extra: 30_mm_gap_6_mm_flange_ribbed
       height: 1.5
-      inclusion: 'true'
-      pos: *id021
-      r: 12.5
-      radius: 12.5
-      shape: cylinder
-      type: positive
+      pos:
+      - -250.0
+      - -250.0
+      - 9
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
       width: 4
   components_objects:
   - depth: 9
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2070,7 +3988,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2078,7 +3996,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     style: ribbed
     thickness: 80
@@ -2086,7 +4004,7 @@ thing:
     width: 4
   - depth: 80
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
@@ -2094,7 +4012,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2102,7 +4020,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2111,14 +4029,14 @@ thing:
     - 0
     - 9
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     style: ribbed
     thickness: 80
     type: negative
     width: 4
   - extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
@@ -2126,7 +4044,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2134,7 +4052,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -2144,14 +4062,14 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     style: ribbed
     thickness: 80
     type: negative
     width: 4
   - extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
@@ -2159,7 +4077,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2167,7 +4085,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -2177,14 +4095,14 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     style: ribbed
     thickness: 80
     type: negative
     width: 4
   - extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
@@ -2192,7 +4110,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2200,7 +4118,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -2210,7 +4128,7 @@ thing:
     - 0
     - 85
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     style: ribbed
     thickness: 80
@@ -2218,7 +4136,7 @@ thing:
     width: 4
     zz: top
   - extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
@@ -2226,7 +4144,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2234,7 +4152,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -2244,7 +4162,7 @@ thing:
     - 0
     - 85
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     style: ribbed
     thickness: 80
@@ -2253,13 +4171,13 @@ thing:
     zz: top
   - depth: 85
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2267,7 +4185,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2276,7 +4194,7 @@ thing:
     - 0
     - 42.5
     radius: 9.0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     style: ribbed
     thickness: 80
@@ -2284,13 +4202,13 @@ thing:
     width: 4
   - depth: 85
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2298,7 +4216,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2307,7 +4225,7 @@ thing:
     - 0
     - 42.5
     radius: 9.0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     style: ribbed
     thickness: 80
@@ -2315,14 +4233,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2330,7 +4248,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2338,7 +4256,7 @@ thing:
     - 22.0
     - 0
     - 14.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2346,14 +4264,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2361,7 +4279,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2369,7 +4287,7 @@ thing:
     - -22.0
     - 0
     - 14.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2377,14 +4295,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2392,7 +4310,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2400,7 +4318,7 @@ thing:
     - 22.0
     - 0
     - 24.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2408,14 +4326,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2423,7 +4341,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2431,7 +4349,7 @@ thing:
     - -22.0
     - 0
     - 24.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2439,14 +4357,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2454,7 +4372,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2462,7 +4380,7 @@ thing:
     - 22.0
     - 0
     - 34.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2470,14 +4388,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2485,7 +4403,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2493,7 +4411,7 @@ thing:
     - -22.0
     - 0
     - 34.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2501,14 +4419,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2516,7 +4434,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2524,7 +4442,7 @@ thing:
     - 22.0
     - 0
     - 44.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2532,14 +4450,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2547,7 +4465,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2555,7 +4473,7 @@ thing:
     - -22.0
     - 0
     - 44.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2563,14 +4481,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2578,7 +4496,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2586,7 +4504,7 @@ thing:
     - 22.0
     - 0
     - 54.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2594,14 +4512,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2609,7 +4527,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2617,7 +4535,7 @@ thing:
     - -22.0
     - 0
     - 54.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2625,14 +4543,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2640,7 +4558,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2648,7 +4566,7 @@ thing:
     - 22.0
     - 0
     - 64.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2656,14 +4574,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2671,7 +4589,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2679,7 +4597,7 @@ thing:
     - -22.0
     - 0
     - 64.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2687,14 +4605,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2702,7 +4620,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2710,7 +4628,7 @@ thing:
     - 22.0
     - 0
     - 74.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2718,14 +4636,14 @@ thing:
     width: 4
   - depth: 10
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     id: 7.0
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2733,7 +4651,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2741,7 +4659,7 @@ thing:
     - -22.0
     - 0
     - 74.0
-    save_type: none
+    save_type: all
     shape: oring
     style: ribbed
     thickness: 80
@@ -2749,13 +4667,13 @@ thing:
     width: 4
   - depth: 6
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2763,69 +4681,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
-    oomp_size: oomlout
-    oomp_type: github
-    overwrite: true
-    pos:
-    - 22.0
-    - 0
-    - 85
-    radius: 7.0
-    save_type: none
-    shape: oobb_cylinder
-    style: ribbed
-    thickness: 80
-    type: positive
-    width: 4
-  - depth: 6
-    extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
-    flange: 6
-    gap: 30
-    height: 1.5
-    modes:
-    - 3dpr
-    navigation: false
-    oomp_classification: project
-    oomp_color: oomlout_organizing_wall_fork_holder
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: project
-    oomp_part_number: ''
-    oomp_run: false
-    oomp_size: oomlout
-    oomp_type: github
-    overwrite: true
-    pos:
-    - -22.0
-    - 0
-    - 85
-    radius: 7.0
-    save_type: none
-    shape: oobb_cylinder
-    style: ribbed
-    thickness: 80
-    type: positive
-    width: 4
-  - depth: 6
-    extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
-    flange: 6
-    gap: 30
-    height: 1.5
-    modes:
-    - 3dpr
-    navigation: false
-    oomp_classification: project
-    oomp_color: oomlout_organizing_wall_fork_holder
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: project
-    oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2834,7 +4690,7 @@ thing:
     - 0
     - 85
     radius: 12.5
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     style: ribbed
     thickness: 80
@@ -2843,13 +4699,13 @@ thing:
     zz: top
   - depth: 6
     extra: 30_mm_gap_6_mm_flange_ribbed
-    filter: ''
+    filter: 30_mm_gap
     flange: 6
     gap: 30
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -2857,7 +4713,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2866,40 +4722,68 @@ thing:
     - 0
     - 85
     radius: 12.5
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     style: ribbed
     thickness: 80
     type: positive
     width: 4
     zz: top
+  - extra: 30_mm_gap_6_mm_flange_ribbed
+    filter: 30_mm_gap
+    flange: 6
+    gap: 30
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_organizing_wall_fork_holder
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 9
+    save_type: all
+    shape: oobb_slice
+    style: ribbed
+    thickness: 80
+    type: n
+    width: 4
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_80_depth_0_0_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_perimeter_holes
-  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
-  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
-  - oobb_cylinder_shape_positive_type_85_depth_22.0_0_42.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_9.0_radius
-  - oobb_cylinder_shape_positive_type_85_depth_-22.0_0_42.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_9.0_radius
-  - oring_shape_negative_type_10_depth_22.0_0_14.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_14.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_24.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_24.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_34.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_34.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_44.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_44.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_54.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_54.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_64.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_64.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_22.0_0_74.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oring_shape_negative_type_10_depth_-22.0_0_74.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
-  - oobb_cylinder_shape_positive_type_6_depth_22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_6_depth_22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_12.5_radius_top_zz
-  - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_85_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_12.5_radius_top_zz
+  - oobb_plate_shape_positive_type_9_depth_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_80_depth_0_0_9_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_perimeter_holes
+  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_22.0_0_85_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
+  - oobb_nut_shape_negative_type_m6_radius_name_-22.0_0_85_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_true_hole_true_overhang_top_zz
+  - oobb_cylinder_shape_positive_type_85_depth_22.0_0_42.5_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_9.0_radius
+  - oobb_cylinder_shape_positive_type_85_depth_-22.0_0_42.5_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_9.0_radius
+  - oring_shape_negative_type_10_depth_22.0_0_14.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_14.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_24.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_24.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_34.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_34.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_44.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_44.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_54.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_54.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_64.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_64.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_22.0_0_74.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oring_shape_negative_type_10_depth_-22.0_0_74.0_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_7.0_id
+  - oobb_cylinder_shape_positive_type_6_depth_22.0_0_85_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_12.5_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_-22.0_0_85_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra_12.5_radius_top_zz
+  - oobb_slice_shape_n_type_0_0_9_pos_30_mm_gap_filter_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_4_width_1.5_height_80_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_30_gap_6_flange_ribbed_style_30_mm_gap_6_mm_flange_ribbed_extra
   description: oomlout organizing wall fork holder base 4x1.5x80
   description_extra: 30_mm_gap_6_mm_flange_ribbed_extra
   description_main: 4_width_1.5_height_80_mm_depth
