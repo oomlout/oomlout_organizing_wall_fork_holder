@@ -24,7 +24,7 @@ def make_scad(**kwargs):
     #oomp_mode = "oobb"
 
     if typ == "all":
-        filter = "30_mm_gap"; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
+        filter = "30_mm_gap_0_mm_flange_ribbed_extra"; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
         #filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
@@ -176,7 +176,7 @@ def make_scad(**kwargs):
     #generate navigation
     if navigation:
         sort = []
-        #sort.append("extra")
+        sort.append("name")
         sort.append("gap")
 
         #sort.append("width")

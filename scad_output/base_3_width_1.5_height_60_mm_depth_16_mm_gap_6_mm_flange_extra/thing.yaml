@@ -1767,7 +1767,7 @@ thing:
       pos: &id018
       - 15.0
       - 0
-      - 51.0
+      - 59.0
       r: 12.5
       radius: 12.5
       shape: cylinder
@@ -1802,7 +1802,7 @@ thing:
       pos: &id019
       - -15.0
       - 0
-      - 54.0
+      - 59.0
       r: 12.5
       radius: 12.5
       shape: cylinder
@@ -2112,7 +2112,7 @@ thing:
     pos:
     - 15.0
     - 0
-    - 57.0
+    - 65
     radius: 12.5
     save_type: none
     shape: oobb_cylinder
@@ -2144,7 +2144,7 @@ thing:
     pos:
     - -15.0
     - 0
-    - 60
+    - 65
     radius: 12.5
     save_type: none
     shape: oobb_cylinder
@@ -2162,8 +2162,8 @@ thing:
   - oobb_nut_shape_negative_type_m6_radius_name_-15.0_0_65_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_true_hole_true_overhang_top_zz
   - oobb_cylinder_shape_positive_type_65_depth_15.0_0_32.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_7.0_radius
   - oobb_cylinder_shape_positive_type_65_depth_-15.0_0_32.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_7.0_radius
-  - oobb_cylinder_shape_positive_type_6_depth_15.0_0_57.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
-  - oobb_cylinder_shape_positive_type_6_depth_-15.0_0_60_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_15.0_0_65_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
+  - oobb_cylinder_shape_positive_type_6_depth_-15.0_0_65_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_16_gap_6_flange_16_mm_gap_6_mm_flange_extra_12.5_radius_top_zz
   description: oomlout organizing wall fork holder base 3x1.5x60
   description_extra: 16_mm_gap_6_mm_flange_extra
   description_main: 3_width_1.5_height_60_mm_depth
