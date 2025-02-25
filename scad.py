@@ -16,15 +16,15 @@ def make_scad(**kwargs):
 
     if typ == "":
         #setup    
-        #typ = "all"
-        typ = "fast"
+        typ = "all"
+        #typ = "fast"
         #typ = "manual"
 
     oomp_mode = "project"
     #oomp_mode = "oobb"
 
     if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
+        filter = "30_mm_gap"; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
         #filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
