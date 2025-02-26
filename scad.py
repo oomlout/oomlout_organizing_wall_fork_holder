@@ -24,7 +24,7 @@ def make_scad(**kwargs):
     #oomp_mode = "oobb"
 
     if typ == "all":
-        filter = "30_mm_gap_0_mm_flange_ribbed_extra"; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
+        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
         #filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
@@ -120,10 +120,15 @@ def make_scad(**kwargs):
         gaps.append(8)
         gaps.append(10)
         gaps.append(12)
+        gaps.append(15)
         gaps.append(16)
         gaps.append(20)
         gaps.append(30)
         gaps.append(45)
+        gaps.append(60)
+        gaps.append(75)
+        gaps.append(90)
+
 
         #do brackets
         for gap in gaps:            
