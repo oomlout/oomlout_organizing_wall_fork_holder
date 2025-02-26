@@ -16,8 +16,8 @@ def make_scad(**kwargs):
 
     if typ == "":
         #setup    
-        typ = "all"
-        #typ = "fast"
+        #typ = "all"
+        typ = "fast"
         #typ = "manual"
 
     oomp_mode = "project"
@@ -125,48 +125,78 @@ def make_scad(**kwargs):
         gaps.append(30)
         gaps.append(45)
 
+        #do brackets
+        for gap in gaps:            
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+
+            width_calculated = gap + 28
+            wid = width_calculated // 15 + 1
+
+            p3["width"] = wid
+            p3["height"] = 1.5
+            #gap = 16
+            p3["gap"] = gap
+            #flange = 0
+            p3["thickness"] = 9
+            p3["extra"] = f"{gap}_mm_gap"
+            part["kwargs"] = p3
+            nam = "bracket"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            #parts.append(part)
+        
+        #do pegs
         flanges = []
         flanges.append(0)
         flanges.append(6)
+        flanges.append(12)
+        flanges.append(24)
         
         thicknesses = []
+        thicknesses.append(30)
+        thicknesses.append(40)
+        thicknesses.append(50)
         thicknesses.append(60)
         thicknesses.append(80)
         thicknesses.append(100)
         thicknesses.append(120)
+        thicknesses.append(130)
+        thicknesses.append(140)
+        thicknesses.append(150)
 
         styles = []
         styles.append("")
-        styles.append("ribbed")
+        styles.append("ribbed")        
+        for flange in flanges:
+            for thickness in thicknesses:
+                for style in styles:
+                    part = copy.deepcopy(part_default)
+                    p3 = copy.deepcopy(kwargs)
 
-        for gap in gaps:
-            for flange in flanges:
-                for thickness in thicknesses:
-                    for style in styles:
-                        part = copy.deepcopy(part_default)
-                        p3 = copy.deepcopy(kwargs)
+                    width_calculated = gap + 28
+                    wid = width_calculated // 15 + 1
 
-                        width_calculated = gap + 28
-                        wid = width_calculated // 15 + 1
+                    p3["width"] = 1
+                    p3["height"] = 1
+                    #gap = 16
+                    #p3["gap"] = gap
+                    #flange = 0
+                    p3["flange"] = flange
 
-                        p3["width"] = wid
-                        p3["height"] = 1.5
-                        #gap = 16
-                        p3["gap"] = gap
-                        #flange = 0
-                        p3["flange"] = flange
+                    p3["thickness"] = thickness
+                    p3["style"] = style
+                    p3["extra"] = f"{flange}_mm_flange"
+                    if style != "":
+                        p3["extra"] += f"_{style}_style"
+                    part["kwargs"] = p3
+                    nam = "peg"
+                    part["name"] = nam
+                    if oomp_mode == "oobb":
+                        p3["oomp_size"] = nam
+                    parts.append(part)
 
-                        p3["thickness"] = thickness
-                        p3["style"] = style
-                        p3["extra"] = f"{gap}_mm_gap_{flange}_mm_flange"
-                        if style != "":
-                            p3["extra"] += f"_{style}"
-                        part["kwargs"] = p3
-                        nam = "base"
-                        part["name"] = nam
-                        if oomp_mode == "oobb":
-                            p3["oomp_size"] = nam
-                        parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -178,14 +208,11 @@ def make_scad(**kwargs):
         sort = []
         sort.append("name")
         sort.append("gap")
-
         #sort.append("width")
         #sort.append("height")
+        sort.append("style")
         sort.append("thickness")
         sort.append("flange")
-        sort.append("style")
-
-        
         scad_help.generate_navigation(sort = sort)
 
 
@@ -416,7 +443,259 @@ def get_base(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
+def get_bracket(thing, **kwargs):
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    gap = kwargs.get("gap", 16)
+    flange = kwargs.get("flange", 0)
+    depth_plate = 9
+    style = kwargs.get("style", "")
+
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth_plate
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
     
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = "perimeter"
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
+
+
+    #add screw
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["depth"] = depth
+        p3["radius_name"] = "m3_screw_wood"
+        p3["holes"] = "perimeter"
+        p3["m"] = "#"
+        poss = []
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += depth_plate
+        poss.append(pos1)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)
+
+    #add nuts
+    shift_x = gap/2 + 14/2
+    if True:
+        depth_total = depth + 5
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_nut"        
+        p3["radius_name"] = "m6"
+        p3["hole"] = True
+        p3["overhang"] = True
+        p3["m"] = "#"
+
+        poss = []
+        pos1 = copy.deepcopy(pos)
+            
+        pos1[0] += shift_x
+        pos1[1] += 0
+        pos1[2] += 0
+        poss.append(pos1)
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += - shift_x
+        pos1[1] += 0
+        pos1[2] += 0
+        poss.append(pos1)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)    
+
+    
+
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 150
+        pos1[2] += depth_plate * 2
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += 9
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+def get_peg(thing, **kwargs):
+    prepare_print = kwargs.get("prepare_print", True)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    gap = kwargs.get("gap", 0)
+    flange = kwargs.get("flange", 0)
+    depth_plate = 9
+    style = kwargs.get("style", "")
+
+    
+
+    
+    #add nuts
+    shift_x = 0
+    if True:
+        depth_total = depth + 5
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_nut"        
+        p3["radius_name"] = "m6"
+        p3["hole"] = True
+        p3["overhang"] = True
+        p3["m"] = "#"
+
+        poss = []
+        pos1 = copy.deepcopy(pos)
+            
+        pos1[0] += shift_x
+        pos1[1] += 0
+        pos1[2] += 0
+        poss.append(pos1)
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += shift_x
+        pos1[1] += 0
+        pos1[2] += 0
+        poss.append(pos1)
+        p3["pos"] = poss
+        #oobb_base.append_full(thing,**p3)    
+
+        
+        p4 = copy.deepcopy(p3)
+        shift_z = depth_total
+        poss = []     
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += shift_x
+        pos1[1] += 0
+        pos1[2] = shift_z
+        poss.append(pos1)
+        p4["pos"] = poss
+        p4["zz"] = "top"
+        oobb_base.append_full(thing,**p4)
+
+        #add hole at same poss
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_hole"
+        p3["radius_name"] = "m6"
+        p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+    #add flange
+    if flange != 0:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"    
+        dep = 6
+        p3["depth"] = dep
+        p3["radius"] = (14+flange) /2
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += depth_total - dep/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+    #add cylinder lifters
+    if True:
+        depth_bracket = 9
+        if style =="":
+            rad = 14/2
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"oobb_cylinder"
+            p3["radius"] = rad
+            p3["depth"] = depth_total - depth_bracket
+            poss = []
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += shift_x
+            pos1[1] += 0
+            pos1[2] += depth_total/2 + depth_bracket/2
+            poss.append(pos1)
+            p3["pos"] = poss
+            oobb_base.append_full(thing,**p3)
+        elif style == "ribbed":
+            rad = 18/2
+            radius_donut = 10
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"oobb_cylinder"
+            p3["radius"] = rad
+            p3["depth"] = depth_total - depth_bracket
+            poss = []
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += shift_x
+            pos1[1] += 0
+            pos1[2] += depth_total/2 + depth_bracket/2
+            poss.append(pos1)
+            p3["pos"] = poss
+            #p3["m"] = "#"
+            oobb_base.append_full(thing,**p3)
+            #add donut cutouts
+            if True:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oring"
+                p3["id"] = 14/2
+                p3["depth"] = radius_donut
+                #p3["m"] = "#"
+                repeats = (depth_total-9-5) /radius_donut
+                for i in range(int(repeats)):
+                    p4 = copy.deepcopy(p3)
+                    pos1 = copy.deepcopy(pos)
+                    pos1[0] += shift_x
+                    pos1[1] += 0
+                    pos1[2] += radius_donut/2 + i * radius_donut + depth_plate
+                    p4["pos"] = [pos1]
+                    oobb_base.append_full(thing,**p4)
+                    p4 = copy.deepcopy(p4)
+                    pos1 = copy.deepcopy(pos)
+                    pos1[0] += - shift_x
+                    pos1[1] += 0
+                    pos1[2] += radius_donut/2 + i * radius_donut + depth_plate
+                    p4["pos"] = [pos1]
+                    oobb_base.append_full(thing,**p4)
+
 if __name__ == '__main__':
     kwargs = {}
     main(**kwargs)

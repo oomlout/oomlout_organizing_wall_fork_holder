@@ -27,12 +27,6 @@ difference() {
 						translate(v = [-11.0000000000, 0, 0.0000000000]) {
 							cylinder(h = 125, r = 9.0000000000);
 						}
-						translate(v = [11.0000000000, 0, 122.0000000000]) {
-							cylinder(h = 6, r = 7.0000000000);
-						}
-						translate(v = [-11.0000000000, 0, 122.0000000000]) {
-							cylinder(h = 6, r = 7.0000000000);
-						}
 						translate(v = [11.0000000000, 0, 119.0000000000]) {
 							cylinder(h = 6, r = 7.0000000000);
 						}
@@ -294,339 +288,157 @@ difference() {
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 2.5000000000]) {
+						translate(v = [11.0000000000, 0, 14.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 14.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 7.5000000000]) {
+						translate(v = [11.0000000000, 0, 24.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 24.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 12.5000000000]) {
+						translate(v = [11.0000000000, 0, 34.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 34.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 17.5000000000]) {
+						translate(v = [11.0000000000, 0, 44.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 44.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 22.5000000000]) {
+						translate(v = [11.0000000000, 0, 54.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 54.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 27.5000000000]) {
+						translate(v = [11.0000000000, 0, 64.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 64.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 32.5000000000]) {
+						translate(v = [11.0000000000, 0, 74.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 74.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 37.5000000000]) {
+						translate(v = [11.0000000000, 0, 84.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 84.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 42.5000000000]) {
+						translate(v = [11.0000000000, 0, 94.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 94.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 47.5000000000]) {
+						translate(v = [11.0000000000, 0, 104.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 104.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [11.0000000000, 0, 52.5000000000]) {
+						translate(v = [11.0000000000, 0, 114.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
-						translate(v = [-22.0000000000, 0, 0]) {
+						translate(v = [-11.0000000000, 0, 114.0000000000]) {
 							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 57.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 62.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 67.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 72.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 77.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 82.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 87.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 92.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 97.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 102.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 107.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 112.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [11.0000000000, 0, 117.5000000000]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
-								}
-							}
-						}
-						translate(v = [-22.0000000000, 0, 0]) {
-							rotate_extrude(angle = 360) {
-								translate(v = [9.5000000000, 0, 0]) {
-									circle(r = 2.5000000000);
+								translate(v = [12.0000000000, 0, 0]) {
+									circle(r = 5.0000000000);
 								}
 							}
 						}
@@ -653,12 +465,6 @@ difference() {
 		}
 		translate(v = [-11.0000000000, 0, 0.0000000000]) {
 			cylinder(h = 125, r = 9.0000000000);
-		}
-		translate(v = [11.0000000000, 0, 122.0000000000]) {
-			cylinder(h = 6, r = 7.0000000000);
-		}
-		translate(v = [-11.0000000000, 0, 122.0000000000]) {
-			cylinder(h = 6, r = 7.0000000000);
 		}
 		translate(v = [11.0000000000, 0, 119.0000000000]) {
 			cylinder(h = 6, r = 7.0000000000);
@@ -921,339 +727,157 @@ difference() {
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 2.5000000000]) {
+		translate(v = [11.0000000000, 0, 14.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 14.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 7.5000000000]) {
+		translate(v = [11.0000000000, 0, 24.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 24.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 12.5000000000]) {
+		translate(v = [11.0000000000, 0, 34.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 34.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 17.5000000000]) {
+		translate(v = [11.0000000000, 0, 44.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 44.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 22.5000000000]) {
+		translate(v = [11.0000000000, 0, 54.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 54.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 27.5000000000]) {
+		translate(v = [11.0000000000, 0, 64.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 64.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 32.5000000000]) {
+		translate(v = [11.0000000000, 0, 74.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 74.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 37.5000000000]) {
+		translate(v = [11.0000000000, 0, 84.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 84.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 42.5000000000]) {
+		translate(v = [11.0000000000, 0, 94.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 94.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 47.5000000000]) {
+		translate(v = [11.0000000000, 0, 104.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 104.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [11.0000000000, 0, 52.5000000000]) {
+		translate(v = [11.0000000000, 0, 114.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
-		translate(v = [-22.0000000000, 0, 0]) {
+		translate(v = [-11.0000000000, 0, 114.0000000000]) {
 			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 57.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 62.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 67.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 72.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 77.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 82.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 87.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 92.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 97.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 102.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 107.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 112.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [11.0000000000, 0, 117.5000000000]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
-				}
-			}
-		}
-		translate(v = [-22.0000000000, 0, 0]) {
-			rotate_extrude(angle = 360) {
-				translate(v = [9.5000000000, 0, 0]) {
-					circle(r = 2.5000000000);
+				translate(v = [12.0000000000, 0, 0]) {
+					circle(r = 5.0000000000);
 				}
 			}
 		}
