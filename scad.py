@@ -150,7 +150,7 @@ def make_scad(**kwargs):
             part["name"] = nam
             if oomp_mode == "oobb":
                 p3["oomp_size"] = nam
-            #parts.append(part)
+            parts.append(part)
         
         #do pegs
         flanges = []

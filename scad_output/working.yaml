@@ -21,7 +21,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -29,12 +29,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -65,7 +66,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -73,12 +74,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -109,7 +111,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -117,12 +119,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -153,7 +156,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -161,12 +164,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -197,7 +201,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -205,12 +209,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -241,7 +246,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -249,12 +254,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -285,7 +291,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -293,12 +299,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -329,7 +336,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -337,12 +344,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 100
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -373,7 +381,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -381,12 +389,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -417,7 +426,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -425,12 +434,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -461,7 +471,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -469,12 +479,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -505,7 +516,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -513,12 +524,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -549,7 +561,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -557,12 +569,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -593,7 +606,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -601,12 +614,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -637,7 +651,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -645,12 +659,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -681,7 +696,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -689,12 +704,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 120
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -725,7 +741,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -733,12 +749,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -769,7 +786,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -777,12 +794,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -813,7 +831,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -821,12 +839,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -857,7 +876,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -865,12 +884,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -901,7 +921,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -909,12 +929,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -945,7 +966,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -953,12 +974,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -989,7 +1011,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -997,12 +1019,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1033,7 +1056,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -1041,12 +1064,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 130
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1077,7 +1101,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -1085,12 +1109,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1121,7 +1146,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -1129,12 +1154,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1165,7 +1191,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -1173,12 +1199,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1209,7 +1236,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -1217,12 +1244,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1253,7 +1281,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -1261,12 +1289,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1297,7 +1326,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -1305,12 +1334,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1341,7 +1371,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -1349,12 +1379,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1385,7 +1416,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -1393,12 +1424,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 140
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1429,7 +1461,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -1437,12 +1469,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1473,7 +1506,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -1481,12 +1514,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1517,7 +1551,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -1525,12 +1559,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1561,7 +1596,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -1569,12 +1604,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1605,7 +1641,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -1613,12 +1649,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1649,7 +1686,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -1657,12 +1694,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1693,7 +1731,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -1701,12 +1739,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1737,7 +1776,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -1745,12 +1784,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 150
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1781,7 +1821,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -1789,12 +1829,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1825,7 +1866,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -1833,12 +1874,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1869,7 +1911,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -1877,12 +1919,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1913,7 +1956,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -1921,12 +1964,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -1957,7 +2001,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -1965,12 +2009,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2001,7 +2046,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -2009,12 +2054,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2045,7 +2091,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -2053,12 +2099,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2089,7 +2136,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -2097,12 +2144,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 30
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2133,7 +2181,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -2141,12 +2189,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2177,7 +2226,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -2185,12 +2234,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2221,7 +2271,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -2229,12 +2279,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2265,7 +2316,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -2273,12 +2324,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2309,7 +2361,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -2317,12 +2369,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2353,7 +2406,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -2361,12 +2414,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2397,7 +2451,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -2405,12 +2459,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2441,7 +2496,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -2449,12 +2504,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 40
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2485,7 +2541,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -2493,12 +2549,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2529,7 +2586,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -2537,12 +2594,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2573,7 +2631,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -2581,12 +2639,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2617,7 +2676,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -2625,12 +2684,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2661,7 +2721,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -2669,12 +2729,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2705,7 +2766,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -2713,12 +2774,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2749,7 +2811,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -2757,12 +2819,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2793,7 +2856,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -2801,12 +2864,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 50
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2837,7 +2901,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -2845,12 +2909,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2881,7 +2946,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -2889,12 +2954,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2925,7 +2991,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -2933,12 +2999,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -2969,7 +3036,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -2977,12 +3044,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3013,7 +3081,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -3021,12 +3089,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3057,7 +3126,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -3065,12 +3134,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3101,7 +3171,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -3109,12 +3179,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3145,7 +3216,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -3153,12 +3224,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 60
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3189,7 +3261,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_extra
@@ -3197,12 +3269,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3233,7 +3306,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 0_mm_flange_ribbed_style_extra
@@ -3241,12 +3314,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3277,7 +3351,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_extra
@@ -3285,12 +3359,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3321,7 +3396,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -3329,12 +3404,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3365,7 +3441,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_extra
@@ -3373,12 +3449,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3409,7 +3486,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 24_mm_flange_ribbed_style_extra
@@ -3417,12 +3494,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3453,7 +3531,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_extra
@@ -3461,12 +3539,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ''
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
@@ -3497,7 +3576,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_organizing_wall_fork_holder
       oomp_description_extra: 6_mm_flange_ribbed_style_extra
@@ -3505,12 +3584,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       style: ribbed
       thickness: 80
+      typ: all
       type: oomlout_organizing_wall_fork_holder_peg
       width: 1
     manufacturer: ''
