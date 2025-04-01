@@ -19,7 +19,7 @@ kwargs:
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 10_mm_gap_extra
@@ -27,11 +27,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
-  overwrite: true
+  overwrite: false
   thickness: 9
+  typ: all
   type: oomlout_organizing_wall_fork_holder_bracket
   width: 3
 manufacturer: ''
@@ -965,7 +966,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -973,17 +974,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 9
+    typ: all
     type: positive
     width: 3
   - depth: 9
@@ -995,7 +997,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1003,18 +1005,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 9
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 9
+    typ: all
     type: negative
     width: 3
   - extra: 10_mm_gap
@@ -1025,7 +1028,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1033,19 +1036,20 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
-    overwrite: true
+    overwrite: false
     pos:
     - 12.0
     - 0
     - 0
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 9
+    typ: all
     type: negative
     width: 3
   - extra: 10_mm_gap
@@ -1056,7 +1060,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1064,26 +1068,27 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overhang: true
-    overwrite: true
+    overwrite: false
     pos:
     - -12.0
     - 0
     - 0
     radius_name: m6
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 9
+    typ: all
     type: negative
     width: 3
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_9_depth_0_0_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_perimeter_holes
-  - oobb_nut_shape_negative_type_m6_radius_name_12.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_true_hole_true_overhang
-  - oobb_nut_shape_negative_type_m6_radius_name_-12.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_true_hole_true_overhang
+  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_9_depth_0_0_9_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_perimeter_holes
+  - oobb_nut_shape_negative_type_m6_radius_name_12.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_true_hole_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_-12.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_10_gap_10_mm_gap_extra_true_hole_true_overhang
   description: oomlout organizing wall fork holder bracket 3x1.5x9
   description_extra: 10_mm_gap_extra
   description_main: 3_width_1_5_height_9_mm_depth

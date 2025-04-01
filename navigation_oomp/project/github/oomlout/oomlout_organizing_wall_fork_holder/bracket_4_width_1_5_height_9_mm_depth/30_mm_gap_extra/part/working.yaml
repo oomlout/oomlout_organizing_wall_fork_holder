@@ -19,7 +19,7 @@ kwargs:
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 30_mm_gap_extra
@@ -27,11 +27,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
-  overwrite: true
+  overwrite: false
   thickness: 9
+  typ: all
   type: oomlout_organizing_wall_fork_holder_bracket
   width: 4
 manufacturer: ''

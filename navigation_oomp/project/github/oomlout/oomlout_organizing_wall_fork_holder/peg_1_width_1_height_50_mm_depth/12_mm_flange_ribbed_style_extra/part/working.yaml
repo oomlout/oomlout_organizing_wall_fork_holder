@@ -19,7 +19,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -27,12 +27,13 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
-  overwrite: true
+  overwrite: false
   style: ribbed
   thickness: 50
+  typ: all
   type: oomlout_organizing_wall_fork_holder_peg
   width: 1
 manufacturer: ''

@@ -27,8 +27,11 @@ def make_scad(**kwargs):
     #test = True
 
     if typ == "all":
+        #no overwrite
+        #filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True; test = False
+        #defualt
         filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
-        #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
+        
     elif typ == "fast":
         #filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
         filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False; test = False
@@ -236,12 +239,12 @@ def make_scad(**kwargs):
     if navigation:
         sort = []
         sort.append("name")
-        sort.append("gap")
-        #sort.append("width")
+        sort.append("gap")        
         #sort.append("height")
         sort.append("style")
         sort.append("thickness")
         sort.append("flange")
+        sort.append("width")
         scad_help.generate_navigation(sort = sort)
 
 
