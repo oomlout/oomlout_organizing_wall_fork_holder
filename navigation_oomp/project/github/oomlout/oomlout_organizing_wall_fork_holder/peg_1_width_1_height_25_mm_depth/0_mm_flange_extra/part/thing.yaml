@@ -19,7 +19,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 0_mm_flange_extra
@@ -27,13 +27,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   style: ''
   thickness: 25
-  typ: all
   type: oomlout_organizing_wall_fork_holder_peg
   width: 1
 manufacturer: ''
@@ -487,7 +486,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -495,7 +494,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
@@ -505,11 +504,10 @@ thing:
     - 0
     - 30
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     style: ''
     thickness: 25
-    typ: all
     type: negative
     width: 1
     zz: top
@@ -520,7 +518,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -528,7 +526,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -537,11 +535,10 @@ thing:
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_hole
     style: ''
     thickness: 25
-    typ: all
     type: n
     width: 1
   - depth: 21
@@ -551,7 +548,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -559,7 +556,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -568,17 +565,16 @@ thing:
     - 0
     - 19.5
     radius: 7.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     style: ''
     thickness: 25
-    typ: all
     type: positive
     width: 1
   components_string:
-  - oobb_nut_shape_negative_type_m6_radius_name_0_0_30_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_hole_shape_n_type_m6_radius_name_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra
-  - oobb_cylinder_shape_positive_type_21_depth_0_0_19.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra_7.0_radius
+  - oobb_nut_shape_negative_type_m6_radius_name_0_0_30_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_hole_shape_n_type_m6_radius_name_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra
+  - oobb_cylinder_shape_positive_type_21_depth_0_0_19.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_0_flange_0_mm_flange_extra_7.0_radius
   description: oomlout organizing wall fork holder peg 1x1x25
   description_extra: 0_mm_flange_extra
   description_main: 1_width_1_height_25_mm_depth

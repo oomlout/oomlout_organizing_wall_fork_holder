@@ -19,7 +19,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_classification: project
   oomp_color: oomlout_organizing_wall_fork_holder
   oomp_description_extra: 12_mm_flange_ribbed_style_extra
@@ -27,13 +27,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
-  overwrite: false
+  overwrite: true
   style: ribbed
   thickness: 100
-  typ: all
   type: oomlout_organizing_wall_fork_holder_peg
   width: 1
 manufacturer: ''
@@ -421,7 +420,7 @@ thing:
       - -100.0
       r: 3.0
       shape: cylinder
-      type: n
+      type: negative
       width: 1
     - extra: 12_mm_flange_ribbed_style
       h: 200
@@ -431,7 +430,7 @@ thing:
       pos: *id004
       r: 3.25
       shape: cylinder
-      type: n
+      type: negative
       width: 1
     - extra: 12_mm_flange_ribbed_style
       h: 200
@@ -441,7 +440,7 @@ thing:
       pos: *id004
       r: 3.0
       shape: cylinder
-      type: n
+      type: negative
       width: 1
   - - depth: 6
       extra: 12_mm_flange_ribbed_style
@@ -464,7 +463,6 @@ thing:
       inclusion: 3dpr
       pos: *id005
       r: 13.0
-      radius: 13.0
       shape: cylinder
       type: positive
       width: 1
@@ -500,7 +498,6 @@ thing:
       inclusion: 3dpr
       pos: *id006
       r: 9.0
-      radius: 9.0
       shape: cylinder
       type: positive
       width: 1
@@ -722,7 +719,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -730,21 +727,20 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overhang: true
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 105
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_nut
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
     zz: top
@@ -755,7 +751,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -763,20 +759,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 0
     radius_name: m6
-    save_type: all
+    save_type: none
     shape: oobb_hole
     style: ribbed
     thickness: 100
-    typ: all
     type: n
     width: 1
   - depth: 6
@@ -786,7 +781,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -794,20 +789,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 102.0
     radius: 13.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     style: ribbed
     thickness: 100
-    typ: all
     type: positive
     width: 1
   - depth: 96
@@ -817,7 +811,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -825,20 +819,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 57.0
     radius: 9.0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     style: ribbed
     thickness: 100
-    typ: all
     type: positive
     width: 1
   - depth: 10
@@ -849,7 +842,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -857,19 +850,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 14.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -880,7 +872,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -888,19 +880,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 14.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -911,7 +902,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -919,19 +910,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 24.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -942,7 +932,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -950,19 +940,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 24.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -973,7 +962,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -981,19 +970,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 34.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1004,7 +992,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1012,19 +1000,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 34.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1035,7 +1022,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1043,19 +1030,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 44.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1066,7 +1052,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1074,19 +1060,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 44.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1097,7 +1082,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1105,19 +1090,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 54.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1128,7 +1112,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1136,19 +1120,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 54.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1159,7 +1142,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1167,19 +1150,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 64.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1190,7 +1172,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1198,19 +1180,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 64.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1221,7 +1202,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1229,19 +1210,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 74.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1252,7 +1232,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1260,19 +1240,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 74.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1283,7 +1262,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1291,19 +1270,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 84.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1314,7 +1292,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1322,19 +1300,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 84.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1345,7 +1322,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1353,19 +1330,18 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 94.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   - depth: 10
@@ -1376,7 +1352,7 @@ thing:
     id: 7.0
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_organizing_wall_fork_holder
     oomp_description_extra: ''
@@ -1384,44 +1360,43 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
     - 94.0
-    save_type: all
+    save_type: none
     shape: oring
     style: ribbed
     thickness: 100
-    typ: all
     type: negative
     width: 1
   components_string:
-  - oobb_nut_shape_negative_type_m6_radius_name_0_0_105_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_true_hole_true_overhang_top_zz
-  - oobb_hole_shape_n_type_m6_radius_name_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra
-  - oobb_cylinder_shape_positive_type_6_depth_0_0_102.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_13.0_radius
-  - oobb_cylinder_shape_positive_type_96_depth_0_0_57.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_9.0_radius
-  - oring_shape_negative_type_10_depth_0_0_14.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_14.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_24.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_24.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_34.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_34.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_44.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_44.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_54.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_54.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_64.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_64.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_74.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_74.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_84.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_84.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_94.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
-  - oring_shape_negative_type_10_depth_0_0_94.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oobb_nut_shape_negative_type_m6_radius_name_0_0_105_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_true_hole_true_overhang_top_zz
+  - oobb_hole_shape_n_type_m6_radius_name_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_102.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_13.0_radius
+  - oobb_cylinder_shape_positive_type_96_depth_0_0_57.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_9.0_radius
+  - oring_shape_negative_type_10_depth_0_0_14.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_14.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_24.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_24.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_34.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_34.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_44.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_44.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_54.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_54.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_64.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_64.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_74.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_74.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_84.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_84.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_94.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
+  - oring_shape_negative_type_10_depth_0_0_94.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_100_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_12_flange_ribbed_style_12_mm_flange_ribbed_style_extra_7.0_id
   description: oomlout organizing wall fork holder peg 1x1x100
   description_extra: 12_mm_flange_ribbed_style_extra
   description_main: 1_width_1_height_100_mm_depth

@@ -1,69 +1,10 @@
 barcode_manufacturer_metalmate: '5050420669030'
-bip_39_word_dash_1: soccer
-bip_39_word_dash_10: soccer-team-pretty-trouble-embody-swamp-immune-silent-satisfy-coyote
-bip_39_word_dash_11: soccer-team-pretty-trouble-embody-swamp-immune-silent-satisfy-coyote-tent
 bip_39_word_dash_12: soccer-team-pretty-trouble-embody-swamp-immune-silent-satisfy-coyote-tent-arrange
 bip_39_word_dash_2: soccer-team
 bip_39_word_dash_3: soccer-team-pretty
-bip_39_word_dash_4: soccer-team-pretty-trouble
-bip_39_word_dash_5: soccer-team-pretty-trouble-embody
-bip_39_word_dash_6: soccer-team-pretty-trouble-embody-swamp
-bip_39_word_dash_7: soccer-team-pretty-trouble-embody-swamp-immune
-bip_39_word_dash_8: soccer-team-pretty-trouble-embody-swamp-immune-silent
-bip_39_word_dash_9: soccer-team-pretty-trouble-embody-swamp-immune-silent-satisfy
-bip_39_word_new_br_1: soccer
-bip_39_word_new_br_10: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune<br>silent<br>satisfy<br>coyote
-bip_39_word_new_br_11: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune<br>silent<br>satisfy<br>coyote<br>tent
 bip_39_word_new_br_12: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune<br>silent<br>satisfy<br>coyote<br>tent<br>arrange
 bip_39_word_new_br_2: soccer<br>team
 bip_39_word_new_br_3: soccer<br>team<br>pretty
-bip_39_word_new_br_4: soccer<br>team<br>pretty<br>trouble
-bip_39_word_new_br_5: soccer<br>team<br>pretty<br>trouble<br>embody
-bip_39_word_new_br_6: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp
-bip_39_word_new_br_7: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune
-bip_39_word_new_br_8: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune<br>silent
-bip_39_word_new_br_9: soccer<br>team<br>pretty<br>trouble<br>embody<br>swamp<br>immune<br>silent<br>satisfy
-bip_39_word_new_line_1: soccer
-bip_39_word_new_line_10: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp
-
-  immune
-
-  silent
-
-  satisfy
-
-  coyote'
-bip_39_word_new_line_11: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp
-
-  immune
-
-  silent
-
-  satisfy
-
-  coyote
-
-  tent'
 bip_39_word_new_line_12: 'soccer
 
   team
@@ -95,130 +36,16 @@ bip_39_word_new_line_3: 'soccer
   team
 
   pretty'
-bip_39_word_new_line_4: 'soccer
-
-  team
-
-  pretty
-
-  trouble'
-bip_39_word_new_line_5: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody'
-bip_39_word_new_line_6: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp'
-bip_39_word_new_line_7: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp
-
-  immune'
-bip_39_word_new_line_8: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp
-
-  immune
-
-  silent'
-bip_39_word_new_line_9: 'soccer
-
-  team
-
-  pretty
-
-  trouble
-
-  embody
-
-  swamp
-
-  immune
-
-  silent
-
-  satisfy'
-bip_39_word_no_space_1: soccer
-bip_39_word_no_space_10: soccerteamprettytroubleembodyswampimmunesilentsatisfycoyote
-bip_39_word_no_space_11: soccerteamprettytroubleembodyswampimmunesilentsatisfycoyotetent
 bip_39_word_no_space_12: soccerteamprettytroubleembodyswampimmunesilentsatisfycoyotetentarrange
 bip_39_word_no_space_2: soccerteam
 bip_39_word_no_space_3: soccerteampretty
-bip_39_word_no_space_4: soccerteamprettytrouble
-bip_39_word_no_space_5: soccerteamprettytroubleembody
-bip_39_word_no_space_6: soccerteamprettytroubleembodyswamp
-bip_39_word_no_space_7: soccerteamprettytroubleembodyswampimmune
-bip_39_word_no_space_8: soccerteamprettytroubleembodyswampimmunesilent
-bip_39_word_no_space_9: soccerteamprettytroubleembodyswampimmunesilentsatisfy
-bip_39_word_space_0:
-- soccer
-- team
-- pretty
-- trouble
-- embody
-- swamp
-- immune
-- silent
-- satisfy
-- coyote
-- tent
-- arrange
-bip_39_word_space_1: soccer
-bip_39_word_space_10: soccer team pretty trouble embody swamp immune silent satisfy
-  coyote
-bip_39_word_space_11: soccer team pretty trouble embody swamp immune silent satisfy
-  coyote tent
 bip_39_word_space_12: soccer team pretty trouble embody swamp immune silent satisfy
   coyote tent arrange
 bip_39_word_space_2: soccer team
 bip_39_word_space_3: soccer team pretty
-bip_39_word_space_4: soccer team pretty trouble
-bip_39_word_space_5: soccer team pretty trouble embody
-bip_39_word_space_6: soccer team pretty trouble embody swamp
-bip_39_word_space_7: soccer team pretty trouble embody swamp immune
-bip_39_word_space_8: soccer team pretty trouble embody swamp immune silent
-bip_39_word_space_9: soccer team pretty trouble embody swamp immune silent satisfy
-bip_39_word_underscore_1: soccer
-bip_39_word_underscore_10: soccer_team_pretty_trouble_embody_swamp_immune_silent_satisfy_coyote
-bip_39_word_underscore_11: soccer_team_pretty_trouble_embody_swamp_immune_silent_satisfy_coyote_tent
 bip_39_word_underscore_12: soccer_team_pretty_trouble_embody_swamp_immune_silent_satisfy_coyote_tent_arrange
 bip_39_word_underscore_2: soccer_team
 bip_39_word_underscore_3: soccer_team_pretty
-bip_39_word_underscore_4: soccer_team_pretty_trouble
-bip_39_word_underscore_5: soccer_team_pretty_trouble_embody
-bip_39_word_underscore_6: soccer_team_pretty_trouble_embody_swamp
-bip_39_word_underscore_7: soccer_team_pretty_trouble_embody_swamp_immune
-bip_39_word_underscore_8: soccer_team_pretty_trouble_embody_swamp_immune_silent
-bip_39_word_underscore_9: soccer_team_pretty_trouble_embody_swamp_immune_silent_satisfy
 box_of_box_size_manufacturer_metalmate: '4800'
 box_size_manufacturer_metalmate: '200'
 classification: hardware
@@ -487,6 +314,7 @@ price_200_distributor_accu: '0.04'
 price_200_distributor_orbital_fasteners: '0.0156'
 price_2_name: accu
 price_3_name: amazon
+price_4_name: aliexpress
 price_current: '0.0156'
 project_bolt_tray_capacity_oobb_2_5_width_2_length_18_mm_depth: '75'
 project_bolt_tray_capacity_oobb_4_width_2_5_length_18_mm_depth: '150'
