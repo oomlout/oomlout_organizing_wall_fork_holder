@@ -30,7 +30,7 @@ kwargs:
   oomp_run: true
   oomp_size: oomlout
   oomp_type: github
-  overwrite: false
+  overwrite: true
   style: ''
   thickness: 25
   typ: all
@@ -421,7 +421,7 @@ thing:
       - -100.0
       r: 3.0
       shape: cylinder
-      type: n
+      type: negative
       width: 1
     - extra: 24_mm_flange
       h: 200
@@ -431,7 +431,7 @@ thing:
       pos: *id004
       r: 3.25
       shape: cylinder
-      type: n
+      type: negative
       width: 1
     - extra: 24_mm_flange
       h: 200
@@ -441,7 +441,7 @@ thing:
       pos: *id004
       r: 3.0
       shape: cylinder
-      type: n
+      type: negative
       width: 1
   - - depth: 6
       extra: 24_mm_flange
@@ -464,7 +464,6 @@ thing:
       inclusion: 3dpr
       pos: *id005
       r: 19.0
-      radius: 19.0
       shape: cylinder
       type: positive
       width: 1
@@ -500,7 +499,6 @@ thing:
       inclusion: 3dpr
       pos: *id006
       r: 7.0
-      radius: 7.0
       shape: cylinder
       type: positive
       width: 1
@@ -536,7 +534,7 @@ thing:
     oomp_size: oomlout
     oomp_type: github
     overhang: true
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
@@ -568,7 +566,7 @@ thing:
     oomp_run: true
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
@@ -599,7 +597,7 @@ thing:
     oomp_run: true
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
@@ -630,7 +628,7 @@ thing:
     oomp_run: true
     oomp_size: oomlout
     oomp_type: github
-    overwrite: false
+    overwrite: true
     pos:
     - 0
     - 0
@@ -644,10 +642,10 @@ thing:
     type: positive
     width: 1
   components_string:
-  - oobb_nut_shape_negative_type_m6_radius_name_0_0_30_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_true_hole_true_overhang_top_zz
-  - oobb_hole_shape_n_type_m6_radius_name_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra
-  - oobb_cylinder_shape_positive_type_6_depth_0_0_27.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_19.0_radius
-  - oobb_cylinder_shape_positive_type_21_depth_0_0_19.5_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_7.0_radius
+  - oobb_nut_shape_negative_type_m6_radius_name_0_0_30_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_true_hole_true_overhang_top_zz
+  - oobb_hole_shape_n_type_m6_radius_name_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_19.0_radius
+  - oobb_cylinder_shape_positive_type_21_depth_0_0_19.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_25_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_organizing_wall_fork_holder_oomp_color_24_flange_24_mm_flange_extra_7.0_radius
   description: oomlout organizing wall fork holder peg 1x1x25
   description_extra: 24_mm_flange_extra
   description_main: 1_width_1_height_25_mm_depth
